@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express-session": "^1.17.2",
     "mongodb": "^4.4.1",
     "mongoose": "^6.2.9",
     "uuid": "^8.3.2"
