@@ -7,9 +7,10 @@ const bookHistorySchema = new Schema({
     bookId: Number,
     rentDate: Date,
     rentDateExpire: Date,
-    totalPrice: Number
+    price: Number,
+    hasReturn:Boolean
 })
 
-const bookHistoryModel = mongoose.model('histories', bookHistorySchema)
+const bookHistoryModel = mongoose.model('rent', bookHistorySchema)
 
 module.exports = bookHistoryModel
